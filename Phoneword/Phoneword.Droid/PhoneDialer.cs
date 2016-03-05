@@ -30,6 +30,7 @@ namespace Phoneword.Droid
             return false;
         }
 
+        //.
         public static bool IsIntentAvailable(Context context, Intent intent)
         {
             var packageManager = context.PackageManager;
