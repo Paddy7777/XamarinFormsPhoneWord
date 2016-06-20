@@ -12,6 +12,7 @@ namespace Phoneword.Droid
 {
     //hhh
     //gg
+    //fasdfas
     [Activity(Label = "Phoneword", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
     {
