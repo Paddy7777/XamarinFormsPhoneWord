@@ -48,6 +48,7 @@ namespace Phoneword
                     callHistoryButton.IsEnabled = true;
                     dialer.Dial(translatedNumber);
                 }
+                else
                 {
                     callHistoryButton.IsEnabled = false;
                 }

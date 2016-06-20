@@ -6,7 +6,7 @@ namespace Phoneword
 {
     public class App : Application
     {
-        public static List<string> PhoneNumbers { get; set; }
+        public static List<string> PhoneNumbers { get; set; } = new List<string>();
 
         public App()
         {

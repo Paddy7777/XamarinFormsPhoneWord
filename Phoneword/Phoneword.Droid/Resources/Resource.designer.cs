@@ -2519,6 +2519,9 @@ namespace Phoneword.Droid
 			// aapt resource value: 0x7f05001d
 			public const int appbar_scrolling_view_behavior = 2131034141;
 			
+			// aapt resource value: 0x7f050020
+			public const int callHistory = 2131034144;
+			
 			// aapt resource value: 0x7f05001e
 			public const int hello = 2131034142;
 			
