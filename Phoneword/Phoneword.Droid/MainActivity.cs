@@ -10,6 +10,7 @@ using Android.Content.PM;
 
 namespace Phoneword.Droid
 {
+    //hhh
     [Activity(Label = "Phoneword", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
     {
