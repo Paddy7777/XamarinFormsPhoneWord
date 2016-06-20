@@ -1,13 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
 using Xamarin.Forms;
 
 namespace Phoneword
 {
     public class App : Application
     {
+        public static List<string> PhoneNumbers { get; set; }
+
         public App()
         {
-            MainPage = new Phoneword.MainPage();
+            MainPage = new NavigationPage(new Phoneword.MainPage());
         }
 
         protected override void OnStart()
